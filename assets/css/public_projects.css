@@ -1,0 +1,198 @@
+/* ====== HERO SECTION ====== */
+.hero-section-public {
+  background: var(--color-background);
+}
+
+.hero-section-public p {
+  color: var(--color-text-secondary);
+}
+
+.hero-section-public .btn {
+  background: var(--color-button-bg);
+  border: none;
+  color: #fff;
+}
+
+.hero-section-public .btn:hover {
+  background: var(--color-button-hover-bg); 
+}
+
+/* ====== STATS SECTION ====== */
+.stats-section {
+  background: var(--color-card-bg);
+}
+
+.stat-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--color-text-primary);
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(59, 107, 165, 0.3);
+}
+
+.stat-card.total {
+  background: var(--color-card-second);
+}
+
+.stat-card.completed {
+  background: var(--color-status-completed-bg);
+  color: #fff;
+}
+
+.stat-card.in-progress {
+  background: var(--color-status-in-progress-bg);
+  color: #fff;
+}
+
+/* ====== FAQ SECTION ====== */
+.accordion {
+  border: none;
+  border-radius: 10px;
+  color: white !important;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion-item {
+  border-radius: 8px !important;
+  margin-bottom: 15px;
+  background: var(--color-text-white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);  
+  transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  
+}
+
+.accordion-button {
+  background: var(--color-text-white);
+  color: var(--color-text-white);
+  font-weight: 400;
+  padding: 20px 25px;
+  border: none !important;
+  box-shadow: none !important;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapse) {
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%) !important;
+  color: var(--color-text-white);
+}
+
+/* .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    transform: rotate(-180deg);
+}
+
+/* ====== TRANSPARENCY & CONTACT ====== */
+.transparency-section {
+    background: var(--color-background);
+    color: var(--color-text-primary);
+}
+
+.contact-card {
+    background: var(--color-card-bg);
+}
+
+.contact-card a,
+.contact-card button {
+    background: var(--color-button-bg);
+    border: none;
+    color: #fff;
+}
+
+.contact-card a:hover,
+.contact-card button:hover {
+    background: var(--color-button-hover-bg);
+}
+
+
+.contact-card a:hover,
+.contact-card button:hover {
+    background: linear-gradient(90deg, #3b7ed1, #5ca4f2);
+    transform: scale(1.03);
+}
+
+/* ===== SEND MESSAGE ===== */
+.contact-modal {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contact-modal .modal-header {
+    background: linear-gradient(90deg, #e3f1ff, #ffffff);
+    border-bottom: none;
+}
+
+.contact-modal .modal-title {
+    color: #1f3b6d;
+    font-weight: 700;
+}
+
+.contact-modal .form-control {
+    background: #f8faff;
+    border: 1px solid #dce6f9;
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease, border 0.2s ease;
+}
+
+.contact-modal .form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.25rem rgba(74, 144, 226, 0.25);
+}
+
+.contact-modal .btn-primary {
+    background: linear-gradient(90deg, #4a90e2, #6bb6ff);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.contact-modal .btn-primary:hover {
+    background: linear-gradient(90deg, #3b7ed1, #5ca4f2);
+}
+
+.contact-modal .btn-secondary {
+    background: #e4e7ec;
+    color: #333;
+    border-radius: 8px;
+}
+
+.contact-modal .btn-secondary:hover {
+    background: #d8dce3;
+}
+
+
+
+/* ====== FOOTER ====== */
+.footer {
+  background: var(--color-card-bg);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 767.98px) {
+  .stat-card {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+
+/* 
+Start Date
+mm/dd/yyyy
+Warning: Undefined variable $today in C:\xampp\htdocs\CPMS\modules\contractors\contractor_dashboard.php on line 89
+required>

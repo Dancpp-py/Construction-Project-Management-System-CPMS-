@@ -1,0 +1,41 @@
+.db-card {
+    border: none;
+    color: var(--color-text-primary);
+}
+
+/* DataTables Button CSS */
+.editBtn {
+    color: var(--color-text-primary);
+    background-color: var(--color-status-completed-bg);
+}
+
+.editBtn:hover {
+    background-color: #0a970f;
+    color: var(--color-text-primary);
+}
+
+.deleteBtn {
+    color: var(--color-text-primary);
+    background-color: var(--color-status-delayed-bg);
+}
+
+.deleteBtn:hover {
+    background-color: #b11d10;
+    color: var(--color-text-primary);
+}
+
+/* Project Status CSS */
+.status-ongoing {
+    color: var(--color-status-completed-bg);
+    font-weight: 600;
+}
+
+.status-completed {
+    color: var(--color-accent-blue);
+    font-weight: 600;
+}
+
+.status-pending {
+    color: orange;
+    font-weight: 600;
+}

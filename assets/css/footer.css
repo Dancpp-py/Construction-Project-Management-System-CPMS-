@@ -1,0 +1,32 @@
+.footer {
+    font-family: 'Montserrat', sans-serif !important;
+    background: var(--color-card-bg);
+    color: var(--color-text-primary);
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.footer .footer-brand {
+  color: var(--color-accent-blue);
+  font-weight: 600;
+}
+
+.footer small {
+  color: var(--color-text-secondary);
+}
+
+.footer p {
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.5px;
+}
+
+.cpms-p {
+    color: var(--color-button-hover-bg);
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 1rem;
+    }
+}

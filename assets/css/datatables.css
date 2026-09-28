@@ -1,0 +1,44 @@
+.dataTables_wrapper{
+    padding: 1rem;
+    margin-bottom: 2px;
+}
+
+.dt-buttons .btn {
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: var(--color-accent-blue);
+}
+
+.dt-buttons .btn:hover{
+    box-shadow: 0 0 6px rgba(91, 143, 218, 0.4);
+    background-color: var(--color-button-hover-bg);
+}
+
+.dt-buttons .btn:active{
+    background-color: var(--color-button-active-bg);
+}
+
+div.dt-button-collection {
+    padding: 5px 10px;   
+}
+
+div.dt-button-collection .buttons-excel {
+    background-color: #1d9b4a !important;
+}
+
+div.dt-button-collection .buttons-pdf {
+    background-color: #e03e2f !important;
+}
+
+div.dt-button-collection .buttons-print {
+    background-color: #6b7280 !important;
+}
+
+div.dt-button-collection .buttons-copy {
+    background-color: #6c63ff !important;
+}
+
+div.dt-button-collection .buttons-csv {
+    background-color: #00bcd4 !important;
+}

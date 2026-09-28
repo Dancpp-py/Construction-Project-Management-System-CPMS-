@@ -1,0 +1,144 @@
+/* body{
+    background-image: url('../images/demi.png');
+} */
+
+
+:root {
+    --color-background: #121821;               /* Dark Navy Blue */
+    --color-text-primary: #e0e0e0;             /* Light Gray */
+    --color-text-secondary: #8a98b8;           /* Cool Gray */
+    --color-accent-blue: #3b6ba5;              /* Medium Blue */
+    --color-card-bg: #1f2937;                  /* Dark Slate Gray */
+    --color-hover-bg: #2c3a59;                 /* Slate Blue */
+    --color-heading-highlight: #a8c0ff;        /* Light Cornflower Blue */
+    --color-text-white: #fff;               /* White */
+    /* Status Colors */
+    --color-status-in-progress-bg: #3b6ba5;    /* Medium Blue */
+    --color-status-delayed-bg: #e03e2f;        /* Soft Red */
+    --color-status-completed-bg: #4caf50;      /* Medium Green */
+    
+    /* Supporting Text Colors */
+    --color-text-project-name: #cfd8ff;        /* Light Blue Gray */
+    --color-text-delayed: #ffd5d1;             /* Pale Red */
+    --color-text-completed: #d6f5d6;           /* Pale Green */
+    
+    /* Button Colors */
+    --color-button-bg: var(--color-accent-blue);
+    --color-button-hover-bg: #5b8fda; 
+    --color-button-active-bg: #345d8f;         /* Lighter Blue */
+
+    /* Dashboard Card Colors */
+    --color-card-first: #1f2937;               /* Base dark gray-blue */
+    --color-card-second: #374151;              /* Slightly lighter */
+    --color-card-third: #4b5563;               /* Medium gray */
+    --color-card-fourth: #6b7280;              /* Softer gray */
+
+    --dt-bg: #517dbb;                           /* table background */
+    --dt-header-bg: #2c3a59;
+}
+
+/* Logo CSS */
+.bg-logo {
+    width: 200px;
+}
+
+/* Custom Button */
+.custom-btn {
+    border: none;
+    background-color: var(--color-button-bg);
+}
+.custom-btn:hover {
+    border: none;
+    background-color: var(--color-button-hover-bg);
+}
+
+.custom-btn:active,
+.custom-btn:focus {
+    border: none !important;
+    background-color: var(--color-button-bg) !important;
+}
+
+/* Custom Card */
+.custom-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 3rem 2rem;
+    background-color: var(--color-card-bg);
+}
+
+/* Custom Form CSS */
+.body-form {
+    background-color: var(--color-hover-bg);
+}
+
+/* Custom Heading */
+.custom-h3 {
+    color: var(--color-heading-highlight);
+}
+
+/* Custom HR */
+hr.custom-outline {
+    opacity: 0.6;
+    border-color: #4b5563 !important;
+}
+
+/* Custom Label */
+.custom-label {
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+/* Custom Control */
+.custom-control {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 2px solid #4b5563;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--color-text-primary);
+}
+.custom-control:active,
+.custom-control:focus {
+    color: var(--color-text-primary);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+}
+
+
+/* Custom Link */
+.custom-a {
+    color: #60a5fa;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.custom-a:hover {
+    color: #93c5fd;
+}
+
+/* Dashboard Summary Card CSS */
+.card-first {
+    background-color: #4b4ee2;
+}
+
+.card-second {
+    background-color: #3d52c7;
+}
+
+.card-pending-status {
+    background-color: #ff9900;
+}
+
+.card-ongoing-status {
+    background-color: #247aff;
+}
+
+.card-completed-status {
+    background-color: #27c46b;
+}
+
+.card-first, .card-second, .card-pending-status, .card-ongoing-status, .card-completed-status {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+

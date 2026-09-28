@@ -1,0 +1,30 @@
+.body-register-form {
+    background-color: var(--color-hover-bg);
+}
+
+.bg-logo {
+    width: 200px;
+}
+
+.contractor-card {
+    width: 100%;
+    max-width: 450px;
+    padding: 3rem 2rem;
+    background-color: var(--color-background);
+}
+
+.contractor-h3 {
+    color: var(--color-heading-highlight);
+}
+
+.contractor-label {
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.contractor-btn {
+    background-color: var(--color-button-bg);
+}
+.contractor-btn:hover {
+    background-color: var(--color-button-hover-bg);
+}

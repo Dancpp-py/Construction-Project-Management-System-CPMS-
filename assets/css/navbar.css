@@ -1,0 +1,31 @@
+.navbar {
+    z-index: 1000 !important;
+}
+
+.custom-navbar {
+    z-index: 500;
+    background-color: var(--color-background);
+}
+
+.nav-link {
+    transition: 0.3s;
+    color: var(--color-text-primary);
+}
+
+.nav-link:hover{
+    color: var(--color-text-secondary);
+}
+
+.dropdown-item {
+    transition: 0.3s;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: var(--color-heading-highlight);
+    background-color: var(--color-hover-bg);
+}
